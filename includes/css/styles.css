@@ -13,11 +13,45 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
+.lead
+{
+  text-align: justified;
+}
+
+.row p{
+  text-align: justify;
+}
+
+.tab-content p
+{
+  text-align: justify;
+  margin-top: 10px;
+}
 #features{
   text-align: center;
 }
 #features img{
   margin: 0 0 20px;
+}
+#fit
+{
+  text-align: center;
+}
+
+#locate
+{
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+#locate b{
+  margin-top: 30px;
+}
+footer{
+  background: #333;
+  color:#eee;
+  font-size: 11px;
+  padding:20px;
 }
 /* --------------------------------------
    Typography
