@@ -13,6 +13,10 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
+#featurePara{
+  letter-spacing: 0.5px;
+}
+
 .lead
 {
   text-align: justified;
@@ -27,6 +31,9 @@ Notes:	 Hand coded for Udemy.com
   text-align: justify;
   margin-top: 10px;
 }
+
+#tab2
+
 #features{
   text-align: center;
 }
@@ -47,13 +54,31 @@ Notes:	 Hand coded for Udemy.com
 #locate b{
   margin-top: 30px;
 }
+
+
 footer{
   background: #333;
   color:#eee;
   font-size: 11px;
   padding:20px;
+
 }
-/* --------------------------------------
+
+footer ul{
+  list-style: none;
+
+}
+
+#tab1 img
+{
+  width:100%;
+  height: 100%;
+}
+.unstyled
+{
+  margin-left: -30px;
+}
+/*-------------------------------------
    Typography
    -------------------------------------- */
 
@@ -78,6 +103,10 @@ footer{
 /* --------------------------------------
    Navbar
    -------------------------------------- */
+.navbar-brand{
+  background: url('../../images/fitlogo.jpg');
+  width:90px;
+}
    .searchInput
    {
       width: 180px;
@@ -159,17 +188,13 @@ footer{
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
 
-}
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
   #myCarousel .item
   {
-    height: 310px;
+    height: 170px;
   }
     #slide1
   {
-    background: url('../../images/small.jpg') top center no-repeat;
+    background: url('../../images/xsmall.png') top center no-repeat;
   }
   #slide2
   {
@@ -187,6 +212,43 @@ footer{
   .carousel-caption h4
   {
     font-size: 18px;
+  }
+
+  #tab1 img{
+    <img src="../../images/mob2.jpg">
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width:481px && max-width: 769px) {
+  #myCarousel .item
+  {
+    height: 310px;
+  }
+    #slide1
+  {
+    background: url('../../images/medium.jpg') top center no-repeat;
+  }
+  #slide2
+  {
+    background: url('../../images/medium2.jpg') top center no-repeat;
+  }
+
+  #slide3
+  {
+    background: url('../../images/medium3.jpg') top center no-repeat;
+  }
+  .carousel-caption h3
+  {
+    font-size: 22px;
+  }
+  .carousel-caption h4
+  {
+    font-size: 18px;
+  }
+
+  #tab1 img{
+    <img src="../../images/mob2.jpg">
   }
 }
 
@@ -209,4 +271,8 @@ footer{
     {
       background: url('../../images/large3.jpg') top center no-repeat;
     }
+    #tab1 img{
+
+    <img src="../../images/motto.jpg">
     }
+  }

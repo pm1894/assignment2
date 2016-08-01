@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<!-- Bootstrap CSS -->
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap.min.css" rel="stylesheet">
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 
 		<!-- Custom CSS -->
@@ -22,16 +22,17 @@
 	<body>
 
 	<div class="container" id="main">
-	<div class="navbar navbar-fixed-top">
-<div class="container">
-	<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	</button>
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<button class="navbar-toggle collapsed" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+				 <span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+					</button>
 
-<a class="navbar-brand" href="/"><img src="images/fitlogo.jpg" alt="Your Logo"></a>
-<div class="nav-collapse collapse navbar-responsive-collapse">
+<a class="navbar-brand" href="/"></a>
+<div class="navbar-collapse collapse navbar-responsive-collapse">
 	<ul class="nav navbar-nav">
 		<li class="active">
 			<a href="#">HOME</a>
@@ -41,12 +42,15 @@
 		 <a href="#" class="dropdown-toggle"
 		 data-toggle="dropdown">SERVICES<strong class="caret"></strong></a>
 		 <ul class="dropdown-menu">
-    <li><a href="services.html">FITNESS CLASSES</a></li>
-		<li> <a href="services.html">YOGA AND MEDITATION</a></li>
-		<li> <a href="services.html">GROUP EXERCISES</a></li>
-		<li> <a href="services.html">PERSONAL TRAINING</a></li>
-		<li> <a href="services.html">AQUATICS</a></li>
-		<li> <a href="services.html">DIET FOODS AND DRINKS</a></li>
+    <li><a href="services.html">Fitness Classes</a></li>
+		<li class="divider"></li>
+		<li> <a href="services.html">Yoga And Meditation</a></li>
+		<li class="divider"></li>
+		<li> <a href="services.html">Group Exercises</a></li>
+		<li class="divider"></li>
+		<li> <a href="services.html">Personal Training</a></li>
+		<li class="divider"></li>
+		<li> <a href="services.html">Aquatics</a></li>
 		 </ul>
 	 </li>
 		<li><a href="#">MEMBERSHIP</a></li>
@@ -55,23 +59,26 @@
 		<li><a href="#">CONTACT US</a></li>
 </ul>
 
-<form class="navbar-form" >
-	<input type="text" class="form-control searchInput" placeholder="Search" >
-	<button type="submit" class="btn btn-default searchIcon"><span class="glyphicon glyphicon-search"></span></button>
-</form>
+
+
+
 
 </div>
 </div><!--container-->
 </div><!--Navbar-->
+
+
+
 <div class="carousel slide" id="myCarousel">
 <ol class="carousel-indicators">
 <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
 <li class="active" data-slide-to="1" data-target="#myCarousel"></li>
 <li class="active" data-slide-to="2" data-target="#myCarousel"></li>
 </ol>
-<div class="carousel-inner">
-<div class="item active" id="slide1">
+		<div class="carousel-inner">
+				<div class="item active" id="slide1">
 <!-- <img src="images\women.jpg"> -->
+
 <div class="carousel-caption">
 <h3>PERFECT BODY</h3>
 <p><h4>Don't wish for it work for it...</h4></p>
@@ -131,52 +138,66 @@
 
 
 <div class="row" id="features">
-	<div class="col-sm-4 feature">
-		<div class="panel">
+	<div class="container">
+
+	<div class="col-md-4 feature">
+		<div class="panel panel-default">
 			<div class="panel-heading">
 				<h3 class="panel-title"><b>WHY FITNESS EDGE</b></h3>
-			</div><!-- end panel-heading -->
-			<img src="images/logo1.png" alt="HTML5" class="img-circle">
+			  </div><!-- end panel-heading -->
+<div class="panel-body">
+			 <img src="images/logo1.png" alt="HTML5" class="img-circle ">
 
-			<p>Since 2000,we have helped people across the country find their strength.
+		    	<p>Since 2000,we have helped people across the country find their strength.
 				When the first fitness edge was opened,a tradition of commitment, passion and dedication was started and is still practiced today.
 				And with our best-in-the-business personal trainers you will have an unmatched fitness experience.</p>
+	<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-danger btn-block">Click to know more</a>
+				</div>
 
-			<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-danger btn-block">Click to know more</a>
 		</div><!-- end panel -->
- </div><!-- end row -->
- <div class="col-sm-4 feature">
-	 <div class="panel">
+	</div><!-- end col-4-->
+
+ 		<div class="col-md-4 feature">
+	 	<div class="panel panel-default">
 		 <div class="panel-heading">
 			 <h3 class="panel-title"><b>TRY US</b></h3>
-		 </div><!-- end panel-heading -->
-		 <img src="images/logo2.png" alt="Bootstrap 3" class="img-circle">
+		 	</div><!-- end panel-heading -->
+			<div class="panel-body">
+
+		 	<img src="images/logo2.png" alt="Bootstrap 3" class="img-circle">
 
 		 <p>Our associates have been making a difference by helping people achieve their potential through fitness.
 			 At Fitness Edge, we're passionate about fitness and proud of our legacy. If this sounds good to you, join the most recognized name in fitness and start making a difference today. We're strong and you make us stronger...</p>
+<a href="http://getbootstrap.com/" target="_blank" class="btn btn-info btn-block">Click to know more</a>
+			 </div>
 
-		 <a href="http://getbootstrap.com/" target="_blank" class="btn btn-info btn-block">Click to know more</a>
 	 </div><!-- end panel -->
  </div><!-- end feature -->
- <div class="col-sm-4 feature">
-	<div class="panel">
+
+ <div class="col-md-4 feature">
+	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h3 class="panel-title"><b>READY FOR FITNESS</b></h3>
 		</div><!-- end panel-heading -->
+		<div class="panel-body">
+
 		<img src="images/logo3.png" alt="Bootstrap 3" class="img-circle">
 
-		<p>We provide motivational fitness training to make you ready for what is to come next.We make you
+		<p id="featurePara">We provide motivational fitness training to make you ready for what is to come next.We make you
 			strong both physically and mentally which inculcates self-confidence and self-satisfaction which
 			provides you strength to face anything that comes in your life.Nothing can beat you in the long
-			run just be determined and work hard with us.</p>
+			run.</p>
+</p>
+<a href="http://getbootstrap.com/" target="_blank" class="btn btn-danger btn-block">Click to know more</a>
+</div>
 
-		<a href="http://getbootstrap.com/" target="_blank" class="btn btn-danger btn-block">Click to know more</a>
 </div><!--end panel-->
 </div><!--end feature-->
+	</div>
 </div><!--end features-->
 
 <div class="row" id="moreInfo">
-<div class="col-sm-6">
+<div class="col-sm-10">
 	<h3>A New Experience is about to begin</h3>
 	<div class="tabbable">
 		<ul class="nav nav-tabs">
@@ -186,15 +207,14 @@
 		<div class="tab-content">
 			<div class="tab-pane active" id="tab1">
 				<h4><span class="glyphicon glyphicon-map-marker"></span> Our Belief</h4>
-
-			<img src="images/motto.jpg">
-				<p>So just challenge yourself at the spacious,state of fitnessclub spread over more than 10000 sq. feet area which is equipped with world class latest exercise equipment & has shock absorbers technique to offer you safe operations, functionality and better results. </p>
+<img src="images/motto.jpg" class="pull-center">
+	<p>So just challenge yourself at the spacious,state of fitnessclub spread over more than 10000 sq. feet area which is equipped with world class latest exercise equipment & has shock absorbers technique to offer you safe operations, functionality and better results. </p>
 				<p>We provide complete solution to your problem: Weight loss, Weight Gain, General fitness, De-stress, Sports conditioning etc. Our one mission is to motivate people to become- and stay- active and realize their full potential.
 					An active lifestyle can prevent the development of a myriad of health problems including heart diseases, obesity, diabetes, osteoporosis and other severe and crippling ailments.
 </div><!--end tab-pane-->
   <div class="tab-pane" id="tab2">
 	<h4>Gym will become the best part of your schedule</h4>
-	<img src="images/place.jpg" class="thumbnail pull-left" alt="image">
+	<img src="images/place.jpg" class="thumbnail pull-left img-responsive" alt="image">
 	<p>Moreover, regular activity reduces absenteeism, increases morale and productivity, fights rising health care costs through preventive health care and maintenance.
 		Highly qualified certified fitnessinstructor & personal trainer, certified group exercise instructor and a physiotherapist, will be assisting you to hit the floor and a nutritionist will be providing you with diet plans t </p>
 
@@ -228,20 +248,22 @@
 							</div><!--end modal-content-->
 							</div><!--end modal-dialog-->
 							</div><!--end modal-fade-->
-		</div><!--end tab-pane-->
-		</div><!--end tab-pane-->
-		</div><!--end tab-content-->
-		</div><!--end of tabbable-->
-		</div><!--end col sm 6-->
-		</div><!--end moreInfo-->
-
-
+									</div><!--end tab-pane-->
+									</div><!--end tab-pane-->
+									</div><!--end tab-content-->
+									</div><!--end of tabbable-->
+									</div><!--end col sm 6-->
+									</div><!--end moreInfo-->
 
 
 
 <div class="row" id="moreCourses">
 
+
  </div><!-- end row -->
+
+
+
 <footer>
 	<div class="container">
 		<div class="row">
@@ -250,6 +272,7 @@
 				<p>Contact- 99999999 </p>
 				<p>E-mail- poornima@gmail.com</p>
 			</div>
+
 			<div class="col-sm-4">
 				<h5>About Us</h5>
 				<p id="aboutus">
@@ -258,24 +281,28 @@
 					health, exercise and fitness through dissemination of scientific research done in this field and creating a major attitudinal change in their lifestyles. .
 				</p>
 			</div>
-			<div class="col-sm-2">
-				<h6>Our Locations</h6>
+
+
+			<div class="col-xs-6 col-sm-2">
+		 		<h6>Our Locations:</h6>
 				<ul class="unstyled">
-					<li><a href="#">Chennai</a></li>
-					<li><a href="#">Pune</a></li>
-					<li><a href="#">New Delhi</a></li>
-					<li><a href="#">Kolkata</a></li>
-					<li><a href="#">Mumbai</a></li>
-					<li><a href="#">Bhopal</a></li>
+					<li><a href="#"><font color='white'>Chennai</font></a></li>
+					<li><a href="#"><font color='white'>Pune</font></a></li>
+					<li><a href="#"><font color='white'>New Delhi</font></a></li>
+					<li><a href="#"><font color='white'>Kolkata</font></a></li>
+					<li><a href="#"><font color='white'>Mumbai</font></a></li>
+					<li><a href="#"><font color='white'>Bhopal</font></a></li>
 				</ul>
 			</div>
-			<div class="col-sm-2">
+
+
+			<div class="col-xs-6 col-sm-2">
 				<h6>Follow Us</h6>
 				<ul class="unstyled">
-					<li><p><a href="#"><img src="images/facebook.png">Facebook</p></img></a></li></p>
-					<li><p><a href="#"><img src="images/twitter.png">Twitter</p></a></li>
-					<li><p><a href="#"><img src="images/instagram.png">Instagram</p></a></li>
-					<li><p><a href="#"><img src="images/youtube.png">Youtube</p></a></li>
+			<p>		<li><a href="#"><img src="images/facebook.png"></img></a></li></p>
+				<p>	<li><a href="#"><img src="images/twitter.png"></img></a></li></p>
+				<p>	<li><a href="#"><img src="images/instagram.png"></img></a></li></p>
+				<p>	<li><a href="#"><img src="images/youtube.png"></img></a></li></p>
 				</ul>
 			</div>
 			<div class="col-sm-2">
@@ -302,7 +329,7 @@
 	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
 
 	<!-- Bootstrap JS -->
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="includes/js/bootstrap.min.js"></script>
 
 	<!-- Custom JS -->
 	<script src="includes/js/script.js"></script>
