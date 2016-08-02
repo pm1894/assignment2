@@ -32,7 +32,10 @@ Notes:	 Hand coded for Udemy.com
   margin-top: 10px;
 }
 
-#tab2
+#tab2 p{
+
+  margin-left: 450px;
+}
 
 #features{
   text-align: center;
@@ -69,6 +72,9 @@ footer ul{
 
 }
 
+footer li{
+  display: inline;
+}
 #tab1 img
 {
   width:100%;
@@ -107,16 +113,12 @@ footer ul{
   background: url('../../images/fitlogo.jpg');
   width:90px;
 }
-   .searchInput
+
+ .searchInput
    {
       width: 180px;
       margin-top: 10px;
    }
-
-.searchIcon
-{
-  margin-top: 10px;
-}
 
 .nav
 {
@@ -214,9 +216,6 @@ footer ul{
     font-size: 18px;
   }
 
-  #tab1 img{
-    <img src="../../images/mob2.jpg">
-  }
 }
 
 /* Landscape phone to portrait tablet */
@@ -247,10 +246,9 @@ footer ul{
     font-size: 18px;
   }
 
-  #tab1 img{
-    <img src="../../images/mob2.jpg">
-  }
 }
+
+
 
 /* Large desktop */
 @media (min-width: 1200px) {
@@ -271,8 +269,5 @@ footer ul{
     {
       background: url('../../images/large3.jpg') top center no-repeat;
     }
-    #tab1 img{
 
-    <img src="../../images/motto.jpg">
-    }
   }
